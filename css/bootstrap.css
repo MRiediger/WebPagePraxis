@@ -1594,10 +1594,6 @@ pre code {
     width: 1170px;
   }
 }
-.container-fill-height{
-    min-height: 100% !important;
-    height: 100% !important;
-}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
