@@ -119,7 +119,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #8eb640;
 }
 .on {
-	background-color: #262626 !important;
+	background-color: #0095ff !important;
 	padding: 0 !important;
 	padding: 10px 0 !important;
 }
