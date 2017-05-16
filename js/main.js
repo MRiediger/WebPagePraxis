@@ -33,6 +33,23 @@ function main() {
         offset: 80
     });
 
+    //******handle Leistungen boxes*******
+    //at startup, close all .menu-item (s)
+    $(".menu-item").each(function () {
+        $(this).slideUp();
+    });
+
+    //onclick on Leistung, expand and close others
+    $(".menu-section").click(function (event) {
+        if ($(this).children(".menu-item").is(":hidden")) {
+            $(".menu-section").not(":hidden").children(".menu-item").slideUp();
+            $(this).children(".menu-item").slideDown();
+        }
+        else {
+            $(this).children(".menu-item").slideUp();
+        }
+    });
+
 	// Hide nav on click
   $(".navbar-nav li a").click(function (event) {
     // check if window is small enough so dropdown is created
