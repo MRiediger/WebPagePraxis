@@ -18,6 +18,9 @@
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
+<!-- Introslider -->
+<link rel="stylesheet" type="text/css" href="css/intro-slider.css" />
+
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
@@ -64,17 +67,36 @@
     <header id="header">
         <div class="intro">
             <div class="overlay">
-                <div class="container">
+                <div class="container ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="10000" data-buttons="false" id="slider-intro">
+                    <ol>
+                        <li>
+                            <img src="img/slider/slide1.jpg">
+                            <div class="ism-caption ism-caption-0" data-delay='100'>My slide caption text</div>
+                        </li>
+                        <li>
+                            <img src="img/slider/slide2.jpg">
+                            <div class="ism-caption ism-caption-2" data-delay='100'>My slide caption text</div>
+                        </li>
+                        <li>
+                            <img src="img/slider/slide3.jpg">
+                            <div class="ism-caption ism-caption-2" data-delay='100'>My slide caption text</div>
+                        </li>
+                        <li>
+                            <img src="img/slider/slide4.jpg">
+                            <div class="ism-caption ism-caption-0">My slide caption text</div>
+                        </li>
+                    </ol>
                     <div class="row">
                         <div class="intro-text">
                             <h1>Herzlich Willkommen</h1>
                             <p>Praxis Birgit Riediger</p>
+                        </div>
                             <!--<a href="#uebermich" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>-->
                         </div>
+                   
                     </div>
                 </div>
             </div>
-        </div>
     </header>
     <!-- uebermich Section -->
     <div id="uebermich">
@@ -506,5 +528,6 @@
                 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
                 <script type="text/javascript" src="js/contact_me.js"></script>
                 <script type="text/javascript" src="js/main.js"></script>
+                <script type="text/javascript" src="js/introslider-2.2.min.js"></script>
 </body>
 </html>
