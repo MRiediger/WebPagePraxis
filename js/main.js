@@ -19,6 +19,7 @@ function main() {
 
  //Check for mobile Version
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+		alert("Mobile Device");
             $(".ism-caption").each(function () {
                 $(this).hide();
             });
