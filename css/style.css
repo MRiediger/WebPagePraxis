@@ -238,6 +238,44 @@ header .intro-text {
         line-height: 24px;
         margin: 15px 0 30px;
     }
+	
+	#uebermich .menu-section hr {
+        margin: 0 auto;
+    }
+    #uebermich .menu-section {
+        margin: 0 20px 80px;
+        border: 1px solid #0086e6;
+        border-radius: 4px;
+    }
+    #uebermich .menu-section:hover {
+        cursor: pointer;
+    }
+
+    #uebermich .menu-section-title {
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        color: #444;
+        margin: 20px 0;
+        text-align: center;
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+		word-wrap: break-word;
+    }
+    #uebermich .menu-item {
+        margin: 35px 0;
+        font-size: 18px;
+        background: #FFF;
+    }
+	
+	#uebermich .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
+	
 /* Meine Leistungen Section */
 #meine-leistungen {
     padding: 0 0 60px 0;
@@ -313,6 +351,10 @@ header .intro-text {
 		list-style-position: inside;
 		margin-left: 0.9em; 
 		padding-left: 0.9em;
+	}
+	
+	.li-text{
+		padding-bottom: 0.4em;
 	}
 	
 	#meine-leistungen .menu-item p{
