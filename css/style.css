@@ -89,6 +89,32 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.download-button {
+	color: white;
+    text-shadow: 0 1px rgba(0,0,0,0.15);
+    background: #59b329;
+	padding-left: .625em;
+    padding-right: .625em;
+    cursor: pointer;
+	vertical-align: top;
+	text-align: center;
+	border: 0px white;
+    border-radius: 2px;
+	padding-bottom: 3px;
+	-webkit-box-shadow: inset 0 -2px rgba(255,255,255,0.1), inset 0 -3px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.05);
+    box-shadow: inset 0 -2px rgba(255,255,255,0.1), inset 0 -3px rgba(0,0,0,0.1), 0 1px rgba(0,0,0,0.05);
+	margin: .625em 0 0 0;
+}
+
+.download-button:hover, .download-button:focus{
+	color:white;
+	background:#2dab2e;
+	text-decoration:none;
+	text-shadow:0 1px rgba(0,0,0,0.15);
+	outline:none
+}
+
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -210,6 +236,18 @@ header .intro-text {
     font-size: 0.6em;
     text-align: center;
 }
+
+.ul-text{
+		list-style-type: circle;
+		list-style-position: inside;
+		margin-left: 0.9em; 
+		padding-left: 0.9em;
+	}
+	
+	.li-text{
+		padding-bottom: 0.4em;
+	}
+
 /* uebermich Section */
 #uebermich {
     /*padding: 120px 0;*/
@@ -284,11 +322,7 @@ header .intro-text {
      background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
      background-size: cover;
 }
-/*
-#meine-leistungen .section-title .overlay{
-    background: none;
-}
-    */
+
 #meine-leistungen .section-title h2 {
      color: #fff;
 }
@@ -345,146 +379,169 @@ header .intro-text {
         color: #555;
         margin-top: -26px;
     }
-	
-	.ul-text{
-		list-style-type: circle;
-		list-style-position: inside;
-		margin-left: 0.9em; 
-		padding-left: 0.9em;
-	}
-	
-	.li-text{
-		padding-bottom: 0.4em;
-	}
-	
+
 	#meine-leistungen .menu-item p{
 		margin-left: 0.6em; 
 		padding-left: 0.6em;
 		margin-right: 0.6em; 
 		padding-right: 0.6em;
 	}
-/* Portfolio Section */
-#portfolio {
-	padding: 0 0 120px 0;
+	
+/* Patienteninfo Section */
+#patienteninfo{
+    padding: 0 0 60px 0;
 }
-#portfolio .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
-	background-size: cover;
-	margin-bottom: 50px;
+#patienteninfo .section-title {
+     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
+     background-size: cover;
 }
-#portfolio .section-title h2 {
-	color: #fff;
+/*
+#meine-leistungen .section-title .overlay{
+    background: none;
 }
-.categories {
-	padding-bottom: 30px;
-	text-align: center;
+    */
+#patienteninfo .section-title h2 {
+     color: #fff;
 }
-ul.cat li {
-	display: inline-block;
+#patienteninfo img {
+        width: 300px;
+        box-shadow: 15px 0 #a7c44c;
+    }
+    #patienteninfo h3 {
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    #patienteninfo .menu-section hr {
+        margin: 0 auto;
+    }
+    #patienteninfo .menu-section {
+        margin: 0 20px 80px;
+        border: 1px solid #0086e6;
+        border-radius: 4px;
+    }
+        #patienteninfo .menu-section:hover {
+            cursor: pointer;
+        }
+
+    #patienteninfo .menu-section-title {
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        color: #444;
+        margin: 20px 0;
+        text-align: center;
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	word-wrap: break-word;
+    }
+    #patienteninfo .menu-item {
+        margin: 35px 0;
+        font-size: 18px;
+        background: #FFF;
+    }
+    #patienteninfo .menu-item-name {
+        font-weight: 600;
+        font-size: 17px;
+        color: #555;
+        border-bottom: 2px dotted rgb(213, 213, 213);
+    }
+    #patienteninfo .menu-item-description {
+        font-style: italic;
+        font-size: 15px;
+    }
+    #patienteninfo .menu-item-price {
+        float: right;
+        font-weight: 600;
+        color: #555;
+        margin-top: -26px;
+    }
+	
+	#patienteninfo .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
+	
+	
+/* Patienteninfo Section */
+#gut-zu-wissen{
+    padding: 0 0 60px 0;
 }
-ol.type li {
-	display: inline-block;
-	margin: 0 10px;
-	padding: 20px 0;
+#gut-zu-wissen .section-title {
+     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
+     background-size: cover;
 }
-ol.type li a {
-	color: #999;
-	font-weight: 500;
-	font-size: 14px;
-	padding: 12px 24px;
-	background: #eee;
-	border: 0;
-	border-radius: 0;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
+/*
+#meine-leistungen .section-title .overlay{
+    background: none;
 }
-ol.type li a.active {
-	color: #fff;
-	background-color: #8eb640;
+    */
+#gut-zu-wissen .section-title h2 {
+     color: #fff;
 }
-ol.type li a:hover {
-	color: #fff;
-	background-color: #8eb640;
-}
-.isotope-item {
-	z-index: 2
-}
-.isotope-hidden.isotope-item {
-	z-index: 1
-}
-.isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-}
-.isotope-item {
-	margin-right: -1px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.isotope {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
-}
-.isotope .isotope-item {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
-}
-.portfolio-item {
-	margin: 15px 0;
-}
-.portfolio-item .hover-bg {
-	overflow: hidden;
-	position: relative;
-}
-.portfolio-item .hover-bg:before {
-	display: block;
-	content: '';
-	position: absolute;
-	top: 6px;
-	right: 6px;
-	bottom: 6px;
-	left: 6px;
-	border: 1px solid rgba(255, 255, 255, 0.6);
-}
-.hover-bg .hover-text {
-	position: absolute;
-	text-align: center;
-	margin: 0 auto;
-	color: #fff;
-	background: rgba(0, 0, 0, 0.6);
-	padding: 30% 0 0 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: all 0.5s;
-}
-.hover-bg .hover-text>h4 {
-	opacity: 0;
-	color: #fff;
-	-webkit-transform: translateY(100%);
-	transform: translateY(100%);
-	transition: all 0.3s;
-	font-size: 17px;
-	letter-spacing: 0.5px;
-	font-weight: 500;
-}
-.hover-bg:hover .hover-text>h4 {
-	opacity: 1;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateY(0);
-	transform: translateY(0);
-}
-.hover-bg:hover .hover-text {
-	opacity: 1;
-}
+#gut-zu-wissen img {
+        width: 300px;
+        box-shadow: 15px 0 #a7c44c;
+    }
+    #gut-zu-wissen h3 {
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    #gut-zu-wissen .menu-section hr {
+        margin: 0 auto;
+    }
+    #gut-zu-wissen .menu-section {
+        margin: 0 20px 80px;
+        border: 1px solid #0086e6;
+        border-radius: 4px;
+    }
+        #gut-zu-wissen .menu-section:hover {
+            cursor: pointer;
+        }
+
+    #gut-zu-wissen .menu-section-title {
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        color: #444;
+        margin: 20px 0;
+        text-align: center;
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	word-wrap: break-word;
+    }
+    #gut-zu-wissen .menu-item {
+        margin: 35px 0;
+        font-size: 18px;
+        background: #FFF;
+    }
+    #gut-zu-wissen .menu-item-name {
+        font-weight: 600;
+        font-size: 17px;
+        color: #555;
+        border-bottom: 2px dotted rgb(213, 213, 213);
+    }
+    #gut-zu-wissen .menu-item-description {
+        font-style: italic;
+        font-size: 15px;
+    }
+    #gut-zu-wissen .menu-item-price {
+        float: right;
+        font-weight: 600;
+        color: #555;
+        margin-top: -26px;
+    }
+
+	#gut-zu-wissen .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
+	
 /* Team Section */
 #sprechzeiten {
 	color: #fff;
