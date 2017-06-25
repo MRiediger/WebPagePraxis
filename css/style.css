@@ -307,6 +307,20 @@ header .intro-text {
         color: #555;
         margin-top: -26px;
     }
+	
+	.ul-text{
+		list-style-type: circle;
+		list-style-position: inside;
+		margin-left: 0.9em; 
+		padding-left: 0.9em;
+	}
+	
+	#meine-leistungen .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
 /* Portfolio Section */
 #portfolio {
 	padding: 0 0 120px 0;
