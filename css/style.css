@@ -238,6 +238,7 @@ header .intro-text {
     #uebermich .uebermich-img {
         display: inline-block;
         position: relative;
+		margin-top: 10px;
     }
     #uebermich .uebermich-img:before {
         display: block;
@@ -301,7 +302,7 @@ header .intro-text {
 }
 
 #meine-leistungen .section-title h2 {
-     color: #fff;
+     color: #000;
 }
 #meine-leistungen img {
         width: 300px;
@@ -378,7 +379,7 @@ header .intro-text {
 }
     */
 #patienteninfo .section-title h2 {
-     color: #fff;
+     color: #000;
 }
 #patienteninfo img {
         width: 300px;
@@ -456,7 +457,7 @@ header .intro-text {
 }
     */
 #gut-zu-wissen .section-title h2 {
-     color: #fff;
+     color: #000;
 }
 #gut-zu-wissen img {
         width: 300px;
@@ -602,7 +603,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
 	background: #F6F6F6;
 }
 #contact .section-title p {
