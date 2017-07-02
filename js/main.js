@@ -16,13 +16,6 @@ function main() {
           }
         }
       });
-
- //Check for mobile Version
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            $(".ism-caption").each(function () {
-                $(this).hide();
-            });
-        }
 	
     // Show Menu on Book
     $(window).bind('scroll', function() {
@@ -39,13 +32,13 @@ function main() {
         offset: 80
     });
 
-    //******handle Leistungen boxes*******
+    //******handle content boxes*******
     //at startup, close all .menu-item (s)
     $(".menu-item").each(function () {
         $(this).slideUp();
     });
 
-    //onclick on Leistung, expand and close others
+    //onclick on box, expand and close others
     $(".menu-section").click(function (event) {
         if ($(this).children(".menu-item").is(":hidden")) {
             $(".menu-section").not(":hidden").children(".menu-item").slideUp();

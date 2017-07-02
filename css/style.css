@@ -442,8 +442,82 @@ header .intro-text {
 		padding-right: 0.6em;
 	}
 	
+
+/* Elternninfo Section */
+#elterninfo{
+    padding: 0 0 60px 0;
+}
+#elterninfo .section-title {
+     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
+     background-size: cover;
+}
+
+#elterninfo .section-title h2 {
+     color: #000;
+}
+#elterninfo img {
+        width: 300px;
+        box-shadow: 15px 0 #a7c44c;
+    }
+    #elterninfo h3 {
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    #elterninfo .menu-section hr {
+        margin: 0 auto;
+    }
+    #elterninfo .menu-section {
+        margin: 0 20px 80px;
+        border: 1px solid #0086e6;
+        border-radius: 4px;
+    }
+        #elterninfo .menu-section:hover {
+            cursor: pointer;
+        }
+
+    #elterninfo .menu-section-title {
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        color: #444;
+        margin: 20px 0;
+        text-align: center;
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	word-wrap: break-word;
+    }
+    #elterninfo .menu-item {
+        margin: 35px 0;
+        font-size: 16px;
+        background: #FFF;
+    }
+    #elterninfo .menu-item-name {
+        font-weight: 600;
+        font-size: 17px;
+        color: #555;
+        border-bottom: 2px dotted rgb(213, 213, 213);
+    }
+    #elterninfo .menu-item-description {
+        font-style: italic;
+        font-size: 15px;
+    }
+    #elterninfo .menu-item-price {
+        float: right;
+        font-weight: 600;
+        color: #555;
+        margin-top: -26px;
+    }
 	
-/* Patienteninfo Section */
+	#elterninfo .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
+	
+	
+/* gut zu wissen Section */
 #gut-zu-wissen{
     padding: 0 0 60px 0;
 }
@@ -520,57 +594,78 @@ header .intro-text {
 		padding-right: 0.6em;
 	}
 	
-/* Team Section */
-#sprechzeiten {
-	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
-	background-size: cover;
+/* Sprechzeiten Section */
+#sprechzeiten{
+    padding: 0 0 60px 0;
 }
-    #team .overlay {
-        padding: 120px 0 80px 0;
-        background: rgba(255, 144,0, 0.80);
-    }
-#sprechzeiten h2, #team p {
-	color: #fff;
+#sprechzeiten .section-title {
+     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
+     background-size: cover;
 }
-#sprechzeiten hr {
-	background: #fff;
-}
-#sprechzeiten h3 {
-	color: #fff;
-	font-weight: 400;
-	font-size: 20px;
-	margin: 5px 0;
+
+#sprechzeiten .section-title h2 {
+     color: #000;
 }
 #sprechzeiten img {
-	width: 280px;
-}
-#sprechzeiten .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#sprechzeiten .thumbnail .team-img {
-	display: inline-block;
-	position: relative;
-}
-#sprechzeiten .thumbnail .team-img:before {
-	display: block;
-	content: '';
-	position: absolute;
-	top: 8px;
-	right: 8px;
-	bottom: 8px;
-	left: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
-}
-#sprechzeiten .thumbnail .caption {
-	padding-top: 10px;
-}
-#sprechzeiten .thumbnail .caption p {
-	color: rgba(255,255,255,0.7);
-	padding: 0 10px;
-	font-size: 15px;
-}
+        width: 300px;
+        box-shadow: 15px 0 #a7c44c;
+    }
+    #sprechzeiten h3 {
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    #sprechzeiten .menu-section hr {
+        margin: 0 auto;
+    }
+    #sprechzeiten .menu-section {
+        margin: 0 20px 80px;
+        border: 1px solid #0086e6;
+        border-radius: 4px;
+    }
+        #sprechzeiten .menu-section:hover {
+            cursor: pointer;
+        }
+
+    #sprechzeiten .menu-section-title {
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        color: #444;
+        margin: 20px 0;
+        text-align: center;
+        -webkit-user-select: none; /* Chrome/Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+	word-wrap: break-word;
+    }
+    #sprechzeiten .menu-item {
+        margin: 35px 0;
+        font-size: 16px;
+        background: #FFF;
+    }
+    #sprechzeiten .menu-item-name {
+        font-weight: 600;
+        font-size: 17px;
+        color: #555;
+        border-bottom: 2px dotted rgb(213, 213, 213);
+    }
+    #sprechzeiten .menu-item-description {
+        font-style: italic;
+        font-size: 15px;
+    }
+    #sprechzeiten .menu-item-price {
+        float: right;
+        font-weight: 600;
+        color: #555;
+        margin-top: -26px;
+    }
+
+	#sprechzeiten .menu-item p{
+		margin-left: 0.6em; 
+		padding-left: 0.6em;
+		margin-right: 0.6em; 
+		padding-right: 0.6em;
+	}
 /* Call Reservation Section */
 #call-reservation {
 	padding: 90px 0;
