@@ -370,7 +370,6 @@ header .intro-text {
     padding: 0 0 60px 0;
 }
 #patienteninfo .section-title {
-     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
      background-size: cover;
 }
 /*
@@ -522,7 +521,6 @@ header .intro-text {
     padding: 0 0 60px 0;
 }
 #gut-zu-wissen .section-title {
-     background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
      background-size: cover;
 }
 /*
@@ -599,7 +597,7 @@ header .intro-text {
     padding: 0 0 60px 0;
 }
 #sprechzeiten .section-title {
-     background-size: cover;
+	 background-size: cover;
 }
 
 #sprechzeiten .section-title h2 {
