@@ -80,6 +80,11 @@ hr {
     margin-bottom: 40px;
     border: 0;
 }
+
+.hr-center{
+	margin: 0 auto;
+}
+
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
@@ -597,6 +602,7 @@ header .intro-text {
     padding: 0 0 60px 0;
 }
 #sprechzeiten .section-title {
+	 background: #444 url(../img/leistungen-bg.jpeg) center center no-repeat fixed;
 	 background-size: cover;
 }
 
@@ -687,7 +693,7 @@ header .intro-text {
 	background: -moz-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(142,182,64,1) 50%, rgba(119,153,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 ); /* IE6-9 */
 }
 #call-reservation .overlay {
 	padding: 80px 0;
