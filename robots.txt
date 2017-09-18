@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /fonts
+Disallow: /js
+Disallow: /mail
+
+Sitemap: http://praxis-riediger.de/sitemap.xml
